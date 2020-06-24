@@ -1,0 +1,15 @@
+system Omnis
+	add object Apocalypse
+		distance 10500
+		offset -4
+		sprite ship/apocalypse
+	add object Irm
+		distance 10500
+		sprite sprite/black-hole-core-land
+		object
+			sprite sprite/wisp_red
+system Waypoint
+	add object irm_gate
+		distance 6048
+		period 5634
+		sprite planet/wormhole

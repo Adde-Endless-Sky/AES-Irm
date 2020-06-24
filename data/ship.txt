@@ -1,0 +1,99 @@
+ship Apocalypse
+	attributes
+		"active cooling" 177
+		"apocalypse spine" 2
+		"cargo space" 497
+		"energy capacity" 105900
+		"engine capacity" 238
+		"fuel capacity" 500
+		"heat dissipation" .2
+		"heat generation" 1.3
+		"outfit space" 1409
+		"required crew" 74
+		"shield energy" 9.5
+		"shield generation" 9.1
+		"solar collection" 15.5
+		"weapon capacity" 1113
+		bunks 233
+		category "Heavy Warship"
+		cost 299920000
+		drag 30
+		hull 47200
+		mass 3700
+		ramscoop 7
+		shields 74800
+	drone -103 115 over left
+	drone -103 115 under left
+	drone -103 205.5 over left
+	drone -103 205.5 under left
+	drone -103 25.5 over left
+	drone -103 25.5 under left
+	drone -103 295 over left
+	drone -103 295 under left
+	drone 103 115 over right
+	drone 103 115 under right
+	drone 103 205.5 over right
+	drone 103 205.5 under right
+	drone 103 25.5 over right
+	drone 103 25.5 under right
+	drone 103 295 over right
+	drone 103 295 under right
+	engine -135 -107.5 .6
+	engine -31 510 1.2
+	engine -31 510 1.2
+	engine -74 496
+	engine 0 524 2
+	engine 135 -107.5 .6
+	engine 31 510 1.2
+	engine 31 510 1.2
+	engine 74 496
+	gun -22 -524 Devastator
+	gun 22 -524 Devastator
+	outfits
+		"Apotropaic Anti-Missile" 8
+		"Oginau Engine"
+		"Tekina Engine"
+		"Transparency Plating"
+		Devastator 2
+		Hyperdrive
+	sprite ship/apocalypse
+	thumbnail thumbnail/apocalypse
+	turret -47 115 "Apotropaic Anti-Missile"
+	turret -47 205.5 "Apotropaic Anti-Missile"
+	turret -47 25.5 "Apotropaic Anti-Missile"
+	turret -47 295 "Apotropaic Anti-Missile"
+	turret 47 115 "Apotropaic Anti-Missile"
+	turret 47 205.5 "Apotropaic Anti-Missile"
+	turret 47 25.5 "Apotropaic Anti-Missile"
+	turret 47 295 "Apotropaic Anti-Missile"
+ship Revelation
+	"never disabled"
+	attributes
+		"cargo space" 16
+		"energy capacity" 51000
+		"engine capacity" 79
+		"fuel capacity" 100
+		"heat dissipation" .9
+		"heat generation" 1.3
+		"outfit space" 119
+		"solar collection" 6.6
+		"weapon capacity" 32
+		"shield generation" 3.7
+		"shield energy" 4.1
+		automaton 1
+		category Drone
+		cost 3410000
+		drag 1.4
+		hull 2200
+		hyperdrive 1
+		mass 68
+		shields 900
+	engine -8 25 .3
+	engine 0 40 .6
+	engine 8 25 .3
+	gun 0 -40 Harrier
+	outfits
+		"Tekina Engine"
+		Harrier
+	sprite ship/revelation
+	thumbnail thumbnail/revelation

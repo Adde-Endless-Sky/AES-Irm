@@ -1,0 +1,20 @@
+fleet apocalypse
+	government "Unknown "
+	personality
+		heroic
+	variant
+		Apocalypse
+		Revelation 16
+fleet irm_defense
+	cargo 3
+	government Irm
+	names "kor mereti"
+	personality
+		heroic
+		unconstrained
+	variant
+		Revelation 1
+	variant
+		Revelation 3
+	variant
+		Revelation 8

@@ -1,0 +1,48 @@
+effect devastator_die
+	"velocity scale" 1
+	lifetime 4
+	sprite sprite/devastator_die
+		"frame rate" 60
+		"no repeat"
+		"start frame" 0
+effect devastator_fire1
+	"random angle" 360
+	"random frame rate" 10
+	"random velocity" 20
+	"velocity scale" 1
+	lifetime 10
+	sprite sprite/devastator_fire1
+		"frame rate" 30
+		"no repeat"
+		"start frame" 0
+effect devastator_fire2
+	"random angle" 360
+	"random frame rate" 10
+	"velocity scale" 1
+	lifetime 3
+	sprite sprite/devastator_fire2
+		"frame rate" 60
+		"no repeat"
+		"start frame" 0
+effect devastator_hit1
+	"random angle" 360
+	"velocity scale" .3
+	lifetime 3
+	sprite sprite/devastator_hit1
+		"frame rate" 60
+effect devastator_hit2
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 20
+	"velocity scale" .2
+	lifetime 9
+	sprite effect/explosion/huge
+		"frame rate" 60
+		"no repeat"
+effect devastator_hit3
+	"velocity scale" .25
+	lifetime 4
+	sprite sprite/devastator_hit3
+		"frame rate" 60
+		"no repeat"
+		"start frame" 1

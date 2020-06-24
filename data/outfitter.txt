@@ -1,0 +1,7 @@
+outfitter irm
+	"Apotropaic Anti-Missile"
+	"Oginau Engine"
+	"Tekina Engine"
+	"Transparency Plating"
+	Devastator
+	Harrier

@@ -1,0 +1,70 @@
+mission irm_first_contact_1
+	description `Find somewhere to learn about the enigmatic aliens to the far north. The device that you can only assume to be a translation device also needs to be explained.`
+	landing
+	name `Learn about Enigmatic Aliens`
+	on offer
+		conversation
+			`On your descent you are provided with a fantastic view of the surrounding city, everything has a sort of overwhelming industrial appearance. Though offset by the distinct lack of pollution in the air, it is a sight to behold. Even more perplexing is the magnitude of the ringworld; you can't begin to fathom the amount of work it would take to create even this small, tightly knit portion of the ring.`
+			`	Being greeted by a large group of security personnel on landing has you uneasy, even more so with the escort of several security drones. The one leading the group advances towards you slowly, and says something in an alien language that you do not understand. Noticing your expression, they offer a small metallic device, presumably some sort of translation device.`
+			choice
+				`	(Try speaking into the device.)`
+				`	(Take the device.)`
+					goto take
+			label speak
+			`	"My name is <first> <last>, I come in peace." The one holding the device shows no sign that they understand you, it seems that nothing has been translated. They gesture again for you to take what they are offering.`
+			choice
+				`	(Take the device.)`
+			label take
+			`	After taking the device, the group turns and begins to walk away from you, that was a quick meeting. You should try to find some place that could tell you about what you've just taken.`
+				launch
+		event irm_first_contact 16
+	source
+		system Solum
+	to fail
+		has "event: irm_first_contact"
+mission irm_first_contact_2
+	description `The device given to you by aliens in the north has apparently activated. Return it to them to find out more about the strange device`
+	destination Arx
+	landing
+	name `Return to Solum`
+	on offer
+		dialog
+			`The strange device that you once assumed to be a translation device suddenly begins beeping, slowly, but consistantly. You should return it to the mysterious aliens to the far north..`
+	to offer
+		has "event: irm_first_contact"
+mission irm_first_contact_3
+	landing
+	on offer
+		log Factions Irm `The Irm is an inward facing technocratic society, their entire civilization is undertaking the construction of a truly breathtaking megastructure. Although they very obviously despise cooperating with other species due to a lack of trust and no willingness to give them the chance to prove their trust, they have traded with the Hai before whilst observing the rise and fall of the mighty Hai empire.`
+		conversation
+			`When landing back on the massive ringworld, it is no less impressive as it was the first time around. Back to greet you are the same group of individuals from last time, "Greetings, your translation device seems to be fully functioning now. We are the Irm, I understand you must have questions."`
+			choice
+				`	"What is this place?"`
+					goto where
+				`	"I represent no one but myself, I'm just a traveler."`
+					goto traveler
+				`	"I am merely passing through."`
+			label pass
+			`	"Then you may pass, we mean no inconvenience to your doings, traveler. Know however, that we do not easily forgive, and you will not think yourself more than what you are to us, you are a passerby, not to get involved in our affairs."`
+				decline
+			label traveler
+			`	"That is pleasing to hear, yet regrettable, casting off your own will lead only to hardship. It is honorable to be part of something bigger than yourself, humbling most of all." He lectures, seeming somewhat unsettled by your position.`
+			label where
+			`	"This is us, we inhabit a single star system and ask for no more. Politics is not an interest to us and a land grab is not important at this point in time, particularly true given our surrounding systems. So because of this, we stay, and we avoid trouble."`
+			choice
+				`	"Surrounding systems? You've met the Hai?"`
+					goto hai
+				`	"I see. Well I'm just passing through."`
+					goto pass
+			label hai
+			`	"Yes, though not through means of exploration, they came to us. At the beginning we were threatened, extorted of our resources, a time where we had not yet even discovered the atom. Though for very many millennia since, we have had peace with the Hai, our negotiations with the peaceful Hai were extensive, they do not permit their kind to wander here, and they do not tell of our existence to outsiders, like them we mean to keep peace and this has earned us their favor."`
+			`	"We do not know what events took place for the conquesting Hai to find themselves at peace but perhaps it can be an example to others. Now, what is it you are here for?"`
+			choice
+				`	"I'm just passing through."`
+					goto pass
+				`	"I'm just a tourist, seeing all there is to see."`
+			`	"We have few tourists here on Arx, we do not know if this structure is intimidating to outsiders or we are simply not known by many. Whichever is the cause, we do not mind, we have many pressing matters that take precedence over tourism. If you wish to explore our home you are welcome but do not become an issue to us or you will no longer be welcome here."`
+	source
+		system Solum
+	to offer
+		has "event: irm_first_contact"
