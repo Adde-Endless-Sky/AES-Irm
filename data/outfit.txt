@@ -19,6 +19,9 @@ outfit "Oginau Engine"
 	"flare sprite" flare_sprite/irm_large_engines
 		"frame rate" 3
 	"outfit space" -139
+	"reverse thrust energy" 7.3
+	"reverse thrust heat" 4.6
+	"reverse thrust" 16.4
 	"thrusting energy" 7.2
 	"thrusting heat" 6.1
 	"turning energy" 4.3
@@ -27,6 +30,7 @@ outfit "Oginau Engine"
 	cost 1960000
 	mass 139
 	thrust 73.9
+	thumbnail outfit/oginau_engine
 	turn 1790
 outfit "Tekina Engine"
 	"engine capacity" -76
