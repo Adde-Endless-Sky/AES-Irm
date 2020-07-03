@@ -104,13 +104,13 @@ outfit Harrier
 	"weapon capacity" -31
 	category Guns
 	cost 3160000
-	description `The effectiveness of this beam is unparalleled. Alone, it serves as a fearsome display of power from such a small vessel however; in complement to a squadron of ships bearing additional Harriers, it's sheer destructive capabilities cannot be ignored.`
+	description `The effectiveness of this beam is unparalleled. Alone, it serves as a fearsome display of power from such a small vessel however; in complement to a squadron of ships bearing additional Harriers, it's sheer destructive capabilities cannot be mistaken.`
 	mass 31
 	thumbnail outfit/harrier
 	weapon
 		"firing energy" 4
 		"firing heat" 3.7
-		"heat damage" 28
+		"heat damage" 19
 		"hit effect" "skylance impact"
 		"hull damage" 2
 		"ion damage" .06
