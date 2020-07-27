@@ -1,3 +1,43 @@
+---------
+# DRONE #
+---------
+
+ship 'Revelation'
+	sprite "ship/revelation"
+	thumbnail "thumbnail/revelation"
+	attributes
+		category "Drone"
+		cost 3410000
+		shields 900
+		hull 2200
+		automaton 1
+		mass 68
+		drag 1.4
+		"heat dissipation" .9
+		"fuel capacity" 100
+		"cargo space" 16
+		"outfit space" 119
+		"weapon capacity" 32
+		"engine capacity" 79
+		hyperdrive 1
+		"solar collection" 6.6
+		"energy capacity" 51000
+		"heat generation" 1.3
+		"shield generation" 3.7
+		"shield energy" 4.1
+	outfits
+		"Harrier"
+		"Tekina Engine"
+	engine -8 25 .3
+	engine 0 40 .6
+	engine 8 25 .3
+	gun 0 -40 Harrier
+	"never disabled"
+
+-----------------
+# HEAVY WARSHIP #
+-----------------
+
 ship 'Apocalypse'
 	sprite "ship/apocalypse"
 	thumbnail "thumbnail/apocalypse"
@@ -66,34 +106,19 @@ ship 'Apocalypse'
 	drone 103 205.5 under right
 	drone 103 295 over right
 	drone 103 295 under right
-ship 'Revelation'
-	sprite "ship/revelation"
-	thumbnail "thumbnail/revelation"
-	attributes
-		category "Drone"
-		cost 3410000
-		shields 900
-		hull 2200
-		automaton 1
-		mass 68
-		drag 1.4
-		"heat dissipation" .9
-		"fuel capacity" 100
-		"cargo space" 16
-		"outfit space" 119
-		"weapon capacity" 32
-		"engine capacity" 79
-		hyperdrive 1
-		"solar collection" 6.6
-		"energy capacity" 51000
-		"heat generation" 1.3
-		"shield generation" 3.7
-		"shield energy" 4.1
-	outfits
-		"Harrier"
-		"Tekina Engine"
-	engine -8 25 .3
-	engine 0 40 .6
-	engine 8 25 .3
-	gun 0 -40 Harrier
-	"never disabled"
+
+---------
+# SALES #
+---------
+
+shipyard 'irm'
+	"Apocalypse"
+	"Revelation"
+
+------------
+# OVERRIDE #
+------------
+
+shipyard "experimental"
+	"Apocalypse"
+	"Revelation"

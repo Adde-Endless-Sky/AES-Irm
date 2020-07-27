@@ -1,7 +1,0 @@
-outfitter 'irm'
-	"Apotropaic Anti-Missile"
-	"Devastator"
-	"Harrier"
-	"Oginau Engine"
-	"Tekina Engine"
-	"Transparency Plating"

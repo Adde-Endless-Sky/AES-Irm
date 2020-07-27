@@ -1,8 +1,0 @@
-outfitter "experimental"
-	"Apotropaic Anti-Missile"
-	"Devastator"
-outfitter "plugin"
-	"Harrier"
-	"Oginau Engine"
-	"Tekina Engine"
-	"Transparency Plating"

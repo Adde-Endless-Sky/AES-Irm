@@ -1,2 +1,0 @@
-tip "apocalypse spine:"
-	"Spinal weapon of the Apocalypse. Cannot be removed."
