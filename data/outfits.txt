@@ -193,7 +193,7 @@ outfit "Oginau Engine"
 	"reverse thrust" 16.4
 	"reverse thrust energy" 7.3
 	"reverse thrust heat" 4.6
-	"flare sprite" "flare_sprite/irm_large_engines"
+	"flare sprite" "flare_sprite/oginau_engine"
 		"frame rate" 3
 	"flare sound" "plasma medium"
 
