@@ -1,12 +1,12 @@
-event irm_first_contact
+event "irm first contact"
 	system Solum
+		add trade "Clothing" 251
+		add trade "Electronics" 874
+		add trade "Equipment" 492
+		add trade "Food" 192
 		add trade "Heavy Metals" 1343
+		add trade "Industrial" 943
 		add trade "Luxury Goods" 818
-		add trade Clothing 251
-		add trade Electronics 874
-		add trade Equipment 492
-		add trade Food 192
-		add trade Industrial 943
-		add trade Medical 499
-		add trade Metal 932
-		add trade Plastic 487
+		add trade "Medical" 499
+		add trade "Metal" 932
+		add trade "Plastic" 487

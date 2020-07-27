@@ -1,124 +1,124 @@
-outfit "Apotropaic Anti-Missile"
-	"outfit space" -52
-	"turret mounts" -1
-	"weapon capacity" -52
-	category Turrets
+outfit 'Apotropaic Anti-Missile'
+	category "Turrets"
 	cost 5380000
 	mass 52
+	"outfit space" -52
+	"weapon capacity" -52
+	"turret mounts" -1
 	weapon
-		"firing energy" 62
-		"firing heat" -982
 		"hit effect" "quarg anti-missile"
 		anti-missile 85
+		velocity 500
 		lifetime 1
 		reload 75
-		velocity 500
+		"firing energy" 62
+		"firing heat" -982
 outfit "Oginau Engine"
-	"engine capacity" -139
-	"flare sound" "plasma medium"
-	"flare sprite" flare_sprite/irm_large_engines
-		"frame rate" 3
+	category "Engines"
+	cost 1960000
+	thumbnail "outfit/oginau_engine"
+	mass 139
 	"outfit space" -139
-	"reverse thrust energy" 7.3
-	"reverse thrust heat" 4.6
-	"reverse thrust" 16.4
-	"thrusting energy" 7.2
-	"thrusting heat" 6.1
+	"engine capacity" -139
+	turn 1790
 	"turning energy" 4.3
 	"turning heat" 3.7
-	category Engines
-	cost 1960000
-	mass 139
 	thrust 73.9
-	thumbnail outfit/oginau_engine
-	turn 1790
-outfit "Tekina Engine"
-	"engine capacity" -76
-	"flare sound" "plasma medium"
-	"flare sprite" flare_sprite/tekina_engine
+	"thrusting energy" 7.2
+	"thrusting heat" 6.1
+	"reverse thrust" 16.4
+	"reverse thrust energy" 7.3
+	"reverse thrust heat" 4.6
+	"flare sprite" "flare_sprite/irm_large_engines"
 		"frame rate" 3
+	"flare sound" "plasma medium"
+outfit "Tekina Engine"
+	category "Engines"
+	cost 940000
+	thumbnail outfit/tekina_engine
+	mass 76
 	"outfit space" -76
-	"reverse thrust energy" 0.7
-	"reverse thrust heat" 0.5
-	"reverse thrust" 2.3
-	"thrusting energy" 2.6
-	"thrusting heat" 1.8
+	"engine capacity" -76
+	turn 430
 	"turning energy" 1.7
 	"turning heat" 1.1
-	category Engines
-	cost 940000
-	description `The geometry and subsequently the workings of this technology is incomprehensible to any outsider. Surprisingly however, it seems hardly as effective on any ship other than the Revelation. It seems much of the engines were designed specifically for the Revelation in mind, to work in perfect conjunction with the ships peripherals and core components.`
-	mass 76
 	thrust 12.5
-	thumbnail outfit/tekina_engine
-	turn 430
+	"thrusting energy" 2.6
+	"thrusting heat" 1.8
+	"reverse thrust" 2.3
+	"reverse thrust energy" 0.7
+	"reverse thrust heat" 0.5
+	"flare sprite" "flare_sprite/tekina_engine"
+		"frame rate" 3
+	"flare sound" "plasma medium"
+	description `The geometry and subsequently the workings of this technology is incomprehensible to any outsider. Surprisingly however, it seems hardly as effective on any ship other than the Revelation. It seems much of the engines were designed specifically for the Revelation in mind, to work in perfect conjunction with the ships peripherals and core components.`
 outfit "Transparency Plating"
-	"cloaking energy" 18
-	"outfit space" -61
-	category Systems
-	cloak .002
+	category "Systems"
 	cost 750000
-	description `An application of cloaking technology not unknown to you, tales of space age humans working to discover methods of cloaking were told to you by few historians and academics along your travels. Apparently this application of cloaking is crude and undeveloped but in enough of a working state to function effectively, although slow to put into effect and demanding on your ships power reserves.`
+	thumbnail "outfit/transparency_plating"
 	mass 96
-	thumbnail outfit/transparency_plating
+	"outfit space" -61
+	cloak .002
+	"cloaking energy" 18
 	unplunderable 1
+	description `An application of cloaking technology not unknown to you, tales of space age humans working to discover methods of cloaking were told to you by few historians and academics along your travels. Apparently this application of cloaking is crude and undeveloped but in enough of a working state to function effectively, although slow to put into effect and demanding on your ships power reserves.`
 outfit Devastator
-	"apocalypse spine" -1
-	"energy capacity" 34050
-	"fuel capacity" 350
-	"gun ports" -1
-	"heat generation" 7.1
-	"outfit space" -343
-	"required crew" 21
-	"weapon capacity" -343
-	category Guns
+	category "Guns"
 	cost 29590000
 	mass 343
+	"outfit space" -343
+	"weapon capacity" -343
+	"gun ports" -1
+	"required crew" 21
+	"fuel capacity" 350
+	"energy capacity" 34050
+	"heat generation" 7.1
+	"apocalypse spine" -1
 	weapon
-		"blast radius" 400
-		"die effect" devastator_fire1 3
-		"fire effect" devastator_fire1 2
-		"fire effect" devastator_fire2
+		sprite "sprite/devastator"
+		sound "final explosion small"
+		"fire effect" "devastator fire1" 2
+		"fire effect" "devastator fire2"
+		"hit effect" "devastator hit1"
+		"hit effect" "devastator hit2" 4
+		"hit effect" "devastator hit3"
+		"die effect" "devastator fire1" 3
+		safe
+		lifetime 90
+		"random lifetime" -90
+		velocity 80
+		"random velocity" -80
+		inaccuracy 3.5
 		"firing energy" 38
 		"firing fuel" .13
 		"firing heat" 329
-		"heat damage" 260
-		"hit effect" devastator_hit1
-		"hit effect" devastator_hit2 4
-		"hit effect" devastator_hit3
-		"hit force" 10
-		"hull damage" 116
-		"random lifetime" -90
-		"random velocity" -80
-		"shield damage" 87
-		inaccuracy 3.5
-		lifetime 90
 		reload 2
-		safe
-		sound "final explosion small"
-		sprite sprite/devastator
-		velocity 80
+		"blast radius" 400
+		"hit force" 10
+		"shield damage" 87
+		"hull damage" 116
+		"heat damage" 260
 outfit Harrier
-	"gun ports" -1
+	category "Guns"
+	cost 3160000
+	thumbnail "outfit/harrier"
+	mass 31
 	"outfit space" -31
 	"weapon capacity" -31
-	category Guns
-	cost 3160000
-	description `The effectiveness of this beam is unparalleled. Alone, it serves as a fearsome display of power from such a small vessel however; in complement to a squadron of ships bearing additional Harriers, it's sheer destructive capabilities cannot be mistaken.`
-	mass 31
-	thumbnail outfit/harrier
+	"gun ports" -1
 	weapon
-		"firing energy" 4
-		"firing heat" 3.7
-		"heat damage" 19
-		"hit effect" "skylance impact"
-		"hull damage" 2
-		"ion damage" .06
-		"shield damage" 2.4
-		lifetime 1
-		reload 1
-		sound fire-lance
 		sprite sprite/ion_beam
 			"frame rate" 1
 			"random start frame"
+		sound "fire-lance"
+		"hit effect" "skylance impact"
+		lifetime 1
 		velocity 630
+		reload 1
+		"firing energy" 4
+		"firing heat" 3.7
+		"shield damage" 2.4
+		"hull damage" 2
+		"heat damage" 19
+		"ion damage" .06
+	description `The effectiveness of this beam is unparalleled. Alone, it serves as a fearsome display of power from such a small vessel however; in complement to a squadron of ships bearing additional Harriers, it's sheer destructive capabilities cannot be mistaken.`

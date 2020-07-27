@@ -1,15 +1,15 @@
-system Omnis
-	add object Apocalypse
+system "Omnis"
+	add object "Apocalypse"
+		sprite "ship/apocalypse"
 		distance 10500
 		offset -4
-		sprite ship/apocalypse
-	add object Irm
+	add object "Irm"
+		sprite "sprite/black-hole-core-land"
 		distance 10500
-		sprite sprite/black-hole-core-land
 		object
-			sprite sprite/wisp_red
-system Waypoint
-	add object irm_gate
+			sprite "sprite/wisp_red"
+system "Waypoint"
+	add object "irm gate"
+		sprite "planet/wormhole"
 		distance 6048
 		period 5634
-		sprite planet/wormhole

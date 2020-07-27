@@ -1,7 +1,11 @@
-mission irm_first_contact_1
+mission 'irm first contact'
+	name `Learn about Enigmatic Aliens`
 	description `Find somewhere to learn about the enigmatic aliens to the far north. The device that you can only assume to be a translation device also needs to be explained.`
 	landing
-	name `Learn about Enigmatic Aliens`
+	to fail
+		has "event: irm first contact"
+	source
+		system "Solum"
 	on offer
 		conversation
 			`On your descent you are provided with a fantastic view of the surrounding city, everything has a sort of overwhelming industrial appearance. Though offset by the distinct lack of pollution in the air, it is a sight to behold. Even more perplexing is the magnitude of the ringworld; you can't begin to fathom the amount of work it would take to create even this small, tightly knit portion of the ring.`
@@ -17,25 +21,25 @@ mission irm_first_contact_1
 			label take
 			`	After taking the device, the group turns and begins to walk away from you, that was a quick meeting. You should try to find some place that could tell you about what you've just taken.`
 				launch
-		event irm_first_contact 16
-	source
-		system Solum
-	to fail
-		has "event: irm_first_contact"
-mission irm_first_contact_2
-	description `The device given to you by aliens in the north has apparently activated. Return it to them to find out more about the strange device`
-	destination Arx
-	landing
+		event "irm first contact" 16
+mission 'irm language barrier'
 	name `Return to Solum`
+	description `The device given to you by aliens in the north has apparently activated. Return it to them to find out more about the strange device`
+	landing
+	to offer
+		has "event: irm first contact"
+	destination "Arx"
 	on offer
 		dialog
 			`The strange device that you once assumed to be a translation device suddenly begins beeping, slowly, but consistantly. You should return it to the mysterious aliens to the far north..`
-	to offer
-		has "event: irm_first_contact"
-mission irm_first_contact_3
+mission 'irm translation device'
 	landing
+	to offer
+		has "event: irm first contact"
+	source
+		system "Solum"
 	on offer
-		log Factions Irm `The Irm is an inward facing technocratic society, their entire civilization is undertaking the construction of a truly breathtaking megastructure. Although they very obviously despise cooperating with other species due to a lack of trust and no willingness to give them the chance to prove their trust, they have traded with the Hai before whilst observing the rise and fall of the mighty Hai empire.`
+		log Factions "Irm" `The Irm is an inward facing technocratic society, their entire civilization is undertaking the construction of a truly breathtaking megastructure. Although they very obviously despise cooperating with other species due to a lack of trust and no willingness to give them the chance to prove their trust, they have traded with the Hai before whilst observing the rise and fall of the mighty Hai empire.`
 		conversation
 			`When landing back on the massive ringworld, it is no less impressive as it was the first time around. Back to greet you are the same group of individuals from last time, "Greetings, your translation device seems to be fully functioning now. We are the Irm, I understand you must have questions."`
 			choice
@@ -64,7 +68,3 @@ mission irm_first_contact_3
 					goto pass
 				`	"I'm just a tourist, seeing all there is to see."`
 			`	"We have few tourists here on Arx, we do not know if this structure is intimidating to outsiders or we are simply not known by many. Whichever is the cause, we do not mind, we have many pressing matters that take precedence over tourism. If you wish to explore our home you are welcome but do not become an issue to us or you will no longer be welcome here."`
-	source
-		system Solum
-	to offer
-		has "event: irm_first_contact"
