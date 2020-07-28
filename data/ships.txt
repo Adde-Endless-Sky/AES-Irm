@@ -115,9 +115,9 @@ shipyard 'irm'
 	"Apocalypse"
 	"Revelation"
 
-------------
-# OVERRIDE #
-------------
+------------------
+# SALES OVERRIDE #
+------------------
 
 shipyard "experimental"
 	"Apocalypse"
