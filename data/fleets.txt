@@ -2,14 +2,6 @@
 # FLEETS #
 ----------
 
-fleet 'apocalypse'
-	government "Unknown "
-	personality
-		heroic
-	variant
-		"Apocalypse"
-		"Revelation" 16
-
 fleet 'irm defense'
 	government "Irm"
 	names "kor mereti"
@@ -23,3 +15,15 @@ fleet 'irm defense'
 		Revelation 3
 	variant
 		Revelation 8
+		
+--------------------
+# FLEETS AES-OMNIS #
+--------------------
+
+fleet 'apocalypse'
+	government "Unknown "
+	personality
+		heroic
+	variant
+		"Apocalypse"
+		"Revelation" 16
