@@ -21,7 +21,7 @@ fleet "irm defense"
 --------------------
 
 fleet "apocalypse"
-	government "Unknown "
+	government "arena"
 	personality
 		heroic
 	variant

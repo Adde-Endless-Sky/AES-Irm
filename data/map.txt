@@ -84,13 +84,13 @@ system "Solum"
 		distance 6048
 		period 5634
 
------------
-# PLANETS #
------------
+---------------------
+# PLANETS AES-OMNIS #
+---------------------
 
 planet "Apocalypse"
 	bribe 0
-	government "Unknown "
+	government "arena"
 	tribute 1
 		threshold 0
 		fleet "apocalypse"
