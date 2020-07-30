@@ -2,7 +2,7 @@
 # FIRST CONTACT #
 -----------------
 
-mission 'irm first contact'
+mission "irm first contact"
 	name `Learn about Enigmatic Aliens`
 	description `Find somewhere to learn about the enigmatic aliens to the far north. The device that you can only assume to be a translation device also needs to be explained.`
 	landing
@@ -40,7 +40,7 @@ event "irm first contact"
 		add trade "Metal" 932
 		add trade "Plastic" 487
 
-mission 'irm language barrier'
+mission "irm language barrier"
 	name `Return to Solum`
 	description `The device given to you by aliens in the north has apparently activated. Return it to them to find out more about the strange device`
 	landing
@@ -51,7 +51,7 @@ mission 'irm language barrier'
 		dialog
 			`The strange device that you once assumed to be a translation device suddenly begins beeping, slowly, but consistantly. You should return it to the mysterious aliens to the far north..`
 
-mission 'irm translation device'
+mission "irm translation device"
 	landing
 	to offer
 		has "event: irm first contact"

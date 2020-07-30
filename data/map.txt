@@ -2,7 +2,7 @@
 # INHABITED #
 -------------
 
-system 'Solum'
+system "Solum"
 	pos -215 -580
 	government "Irm"
 	asteroids "large metal" 5 2
@@ -88,14 +88,14 @@ system 'Solum'
 # PLANETS #
 -----------
 
-planet 'Apocalypse'
+planet "Apocalypse"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet "apocalypse"
 
-planet 'Arx'
+planet "Arx"
 	description `This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials.`
 	description `Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species.`
 	landscape landscape/arx
@@ -105,7 +105,7 @@ planet 'Arx'
 		threshold 0
 		fleet "irm defense" 120
 
-planet 'Irm'
+planet "Irm"
 	description `The Irm are an inward facing technocratic society, their entire civilization is undertaking the construction of a truly breathtaking megastructure. Although they very obviously despise cooperating with other species due to a lack of trust and no willingness to give them the chance to prove their trust, they have traded with the Hai before whilst observing the rise and fall of the mighty Hai empire.`
 	landscape landscape/station6
 	spaceport `The Irm are an inward facing technocratic society, their entire civilization is undertaking the construction of a truly breathtaking megastructure. Although they very obviously despise cooperating with other species due to a lack of trust and no willingness to give them the chance to prove their trust, they have traded with the Hai before whilst observing the rise and fall of the mighty Hai empire.`
@@ -113,7 +113,7 @@ planet 'Irm'
 	shipyard "irm"
 	bribe 0
 
-planet 'irm gate'
+planet "irm gate"
 	description ``
 
 ------------

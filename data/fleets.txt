@@ -2,7 +2,7 @@
 # FLEETS #
 ----------
 
-fleet 'irm defense'
+fleet "irm defense"
 	government "Irm"
 	names "kor mereti"
 	cargo 3
@@ -20,7 +20,7 @@ fleet 'irm defense'
 # FLEETS AES-OMNIS #
 --------------------
 
-fleet 'apocalypse'
+fleet "apocalypse"
 	government "Unknown "
 	personality
 		heroic

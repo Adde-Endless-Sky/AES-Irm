@@ -64,7 +64,7 @@ outfit Devastator
 		"hull damage" 116
 		"heat damage" 260
 
-effect 'devastator fire1'
+effect "devastator fire1"
 	sprite sprite/devastator_fire1
 		"frame rate" 30
 		"no repeat"
@@ -74,7 +74,7 @@ effect 'devastator fire1'
 	"random angle" 360
 	"random frame rate" 10
 
-effect 'devastator fire2'
+effect "devastator fire2"
 	sprite sprite/devastator_fire2
 		"frame rate" 60
 		"no repeat"
@@ -83,14 +83,14 @@ effect 'devastator fire2'
 	"random angle" 360
 	"random frame rate" 10
 
-effect 'devastator hit1'
+effect "devastator hit1"
 	sprite sprite/devastator_hit1
 		"frame rate" 60
 	lifetime 3
 	"velocity scale" .3
 	"random angle" 360
 
-effect 'devastator hit2'
+effect "devastator hit2"
 	sprite effect/explosion/huge
 		"frame rate" 60
 		"no repeat"
@@ -100,14 +100,14 @@ effect 'devastator hit2'
 	"random angle" 360
 	"random spin" 5
 
-effect 'devastator hit3'
+effect "devastator hit3"
 	sprite sprite/devastator_hit3
 		"frame rate" 60
 		"no repeat"
 	lifetime 4
 	"velocity scale" .25
 
-effect 'devastator die'
+effect "devastator die"
 	sprite "sprite/devastator_die"
 		"frame rate" 60
 		"no repeat"
@@ -121,7 +121,7 @@ tip "apocalypse spine:"
 # TURRETS #
 -----------
 
-outfit 'Apotropaic Anti-Missile'
+outfit "Apotropaic Anti-Missile"
 	category "Turrets"
 	cost 5380000
 	mass 52
@@ -201,7 +201,7 @@ outfit "Oginau Engine"
 # SALES #
 ---------
 
-outfitter 'irm'
+outfitter "irm"
 	"Apotropaic Anti-Missile"
 	"Devastator"
 	"Harrier"
