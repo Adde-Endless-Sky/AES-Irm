@@ -79,7 +79,7 @@ system "Solum"
 		distance 847
 		offset -280
 		period 360
-	object irm_gate
+	object "irm gate"
 		sprite "planet/wormhole"
 		distance 6048
 		period 5634
