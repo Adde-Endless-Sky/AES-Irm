@@ -1,3 +1,37 @@
+-----------
+# FIGHTER #
+-----------
+
+ship "Testament"
+	attributes
+		category "Fighter"
+		cost 5590000
+		shields 1700
+		hull 3500
+		mass 131
+		drag 1.8
+		"heat dissipation" .6
+		"fuel capacity" 300
+		"cargo space" 6
+		"outfit space" 197
+		"weapon capacity" 68
+		"engine capacity" 112
+		hyperdrive 1
+		ramscoop .8
+		"required crew" 1
+		bunks 2
+		"solar collection" 11.9
+		"energy generation" 3.05
+		"energy capacity" 48800
+		"heat generation" 2.7
+		"shield generation" 11
+		"shield energy" 12.3
+	outfits
+		"Harrier" 2
+		"Tekina Engine" 2
+	gun 0 0 Harrier
+	gun 0 0 Harrier
+
 ---------
 # DRONE #
 ---------
@@ -33,36 +67,6 @@ ship "Revelation"
 	engine 0 40 .6
 	engine 8 25 .3
 	gun 0 -40 Harrier
-
-ship "Testament"
-	attributes
-		category "Fighter"
-		cost 5590000
-		shields 1700
-		hull 3500
-		mass 131
-		drag 1.8
-		"heat dissipation" .6
-		"fuel capacity" 300
-		"cargo space" 6
-		"outfit space" 197
-		"weapon capacity" 68
-		"engine capacity" 112
-		hyperdrive 1
-		ramscoop .8
-		"required crew" 1
-		bunks 2
-		"solar collection" 11.9
-		"energy generation" 3.05
-		"energy capacity" 48800
-		"heat generation" 2.7
-		"shield generation" 11
-		"shield energy" 12.3
-	outfits
-		"Harrier" 2
-		"Tekina Engine" 2
-	gun 0 0 Harrier
-	gun 0 0 Harrier
 
 -----------------
 # HEAVY WARSHIP #
