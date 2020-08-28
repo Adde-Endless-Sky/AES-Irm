@@ -160,14 +160,14 @@ outfit "Tekina Engine"
 	category "Engines"
 	cost 940000
 	thumbnail outfit/tekina_engine
-	mass 76
-	"outfit space" -76
-	"engine capacity" -76
-	turn 430
-	"turning energy" 1.7
-	"turning heat" 1.1
-	thrust 12.5
-	"thrusting energy" 2.6
+	mass 56
+	"outfit space" -56
+	"engine capacity" -56
+	turn 380
+	"turning energy" 1.4
+	"turning heat" 1
+	thrust 11.5
+	"thrusting energy" 2.2
 	"thrusting heat" 1.8
 	"reverse thrust" 2.3
 	"reverse thrust energy" 0.7
