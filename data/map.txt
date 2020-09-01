@@ -4,7 +4,7 @@
 
 system "Solum"
 	pos -215 -580
-	government "Irm"
+	government Irm
 	asteroids "large metal" 5 2
 	asteroids "medium rock" 8 3
 	fleet "irm defense" 250
