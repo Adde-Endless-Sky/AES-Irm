@@ -1,6 +1,6 @@
------------
-# FIGHTER #
------------
+# -----------
+#   FIGHTER
+# -----------
 
 ship "Testament"
 	attributes
@@ -32,9 +32,9 @@ ship "Testament"
 	gun 0 0 Harrier
 	gun 0 0 Harrier
 
----------
-# DRONE #
----------
+# ---------
+#   DRONE
+# ---------
 
 ship "Revelation"
 	"never disabled"
@@ -68,9 +68,9 @@ ship "Revelation"
 	engine 8 25 .3
 	gun 0 -40 Harrier
 
------------------
-# HEAVY WARSHIP #
------------------
+# -----------------
+#   HEAVY WARSHIP
+# -----------------
 
 ship "Apocalypse"
 	sprite "ship/apocalypse"
@@ -141,18 +141,18 @@ ship "Apocalypse"
 	drone 103 295 over right
 	drone 103 295 under right
 
----------
-# SALES #
----------
+# ---------
+#   SALES
+# ---------
 
 shipyard "irm"
 	"Apocalypse"
 	"Revelation"
 	"Testament"
 
-------------------
-# SALES OVERRIDE #
-------------------
+# ------------------
+#   SALES OVERRIDE
+# ------------------
 
 shipyard "experimental"
 	"Apocalypse"

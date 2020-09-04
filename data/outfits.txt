@@ -1,6 +1,6 @@
---------
-# GUNS #
---------
+# --------
+#   GUNS
+# --------
 
 outfit Harrier
 	category "Guns"
@@ -117,9 +117,9 @@ effect "devastator die"
 tip "apocalypse spine:"
 	"Spinal weapon of the Apocalypse. Cannot be removed."
 
------------
-# TURRETS #
------------
+# -----------
+#   TURRETS
+# -----------
 
 outfit "Apotropaic Anti-Missile"
 	category "Turrets"
@@ -137,9 +137,9 @@ outfit "Apotropaic Anti-Missile"
 		"firing energy" 62
 		"firing heat" -982
 
------------
-# SYSTEMS #
------------
+# -----------
+#   SYSTEMS
+# -----------
 
 outfit "Transparency Plating"
 	category "Systems"
@@ -152,9 +152,9 @@ outfit "Transparency Plating"
 	unplunderable 1
 	description `An application of cloaking technology not unknown to you, tales of space age humans working to discover methods of cloaking were told to you by few historians and academics along your travels. Apparently this application of cloaking is crude and undeveloped but in enough of a working state to function effectively, although slow to put into effect and demanding on your ships power reserves.`
 
------------
-# ENGINES #
------------
+# -----------
+#   ENGINES
+# -----------
 
 outfit "Tekina Engine"
 	category "Engines"
@@ -197,9 +197,9 @@ outfit "Oginau Engine"
 		"frame rate" 3
 	"flare sound" "plasma medium"
 
----------
-# SALES #
----------
+# ---------
+#   SALES
+# ---------
 
 outfitter "irm"
 	"Apotropaic Anti-Missile"
@@ -209,9 +209,9 @@ outfitter "irm"
 	"Tekina Engine"
 	"Transparency Plating"
 
-------------
-# OVERRIDE #
-------------
+# ------------
+#   OVERRIDE
+# ------------
 
 outfitter "experimental"
 	"Apotropaic Anti-Missile"

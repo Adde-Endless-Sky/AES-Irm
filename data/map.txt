@@ -1,6 +1,6 @@
--------------
-# INHABITED #
--------------
+# -------------
+#   INHABITED
+# -------------
 
 system "Solum"
 	pos -215 -580
@@ -84,9 +84,9 @@ system "Solum"
 		distance 6048
 		period 5634
 
----------------------
-# PLANETS AES-OMNIS #
----------------------
+# ---------------------
+#   PLANETS AES-OMNIS
+# ---------------------
 
 planet "Apocalypse"
 	bribe 0
@@ -116,9 +116,9 @@ planet "Irm"
 planet "irm gate"
 	description ``
 
-------------
-# OVERRIDE #
-------------
+# ------------
+#   OVERRIDE
+# ------------
 
 system "Omnis"
 	add object "Apocalypse"

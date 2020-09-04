@@ -1,6 +1,6 @@
-----------
-# FLEETS #
-----------
+# ----------
+#   FLEETS
+# ----------
 
 fleet "irm defense"
 	government "Irm"
@@ -16,9 +16,9 @@ fleet "irm defense"
 	variant
 		Revelation 8
 		
---------------------
-# FLEETS AES-OMNIS #
---------------------
+# --------------------
+#   FLEETS AES-OMNIS
+# --------------------
 
 fleet "apocalypse"
 	government "arena"

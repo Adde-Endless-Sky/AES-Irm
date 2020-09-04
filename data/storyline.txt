@@ -1,6 +1,6 @@
------------------
-# FIRST CONTACT #
------------------
+# -----------------
+#   FIRST CONTACT
+# -----------------
 
 mission "irm first contact"
 	name `Learn about Enigmatic Aliens`
