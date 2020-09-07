@@ -63,8 +63,8 @@ ship "Revelation"
 	outfits
 		"Harrier"
 		"Tekina Engine"
-	engine -8 25 .3
 	engine 0 40 .6
+	engine -8 25 .3
 	engine 8 25 .3
 	gun 0 -40 Harrier
 
@@ -106,38 +106,38 @@ ship "Apocalypse"
 		"Tekina Engine"
 		"Transparency Plating"
 	engine -135 -107.5 .6
-	engine -74 496
-	engine -31 510 1.2
-	engine -31 510 1.2
-	engine 0 524 2
-	engine 31 510 1.2
-	engine 31 510 1.2
-	engine 74 496
 	engine 135 -107.5 .6
+	engine -74 496
+	engine 74 496
+	engine -31 510 1.2
+	engine -31 510 1.2
+	engine 31 510 1.2
+	engine 31 510 1.2
+	engine 0 524 2
 	gun -22 -524 Devastator
 	gun 22 -524 Devastator
-	turret -47 295 "Apotropaic Anti-Missile"
-	turret -47 205.5 "Apotropaic Anti-Missile"
-	turret -47 115 "Apotropaic Anti-Missile"
 	turret -47 25.5 "Apotropaic Anti-Missile"
 	turret 47 25.5 "Apotropaic Anti-Missile"
+	turret -47 115 "Apotropaic Anti-Missile"
 	turret 47 115 "Apotropaic Anti-Missile"
+	turret -47 205.5 "Apotropaic Anti-Missile"
 	turret 47 205.5 "Apotropaic Anti-Missile"
+	turret -47 295 "Apotropaic Anti-Missile"
 	turret 47 295 "Apotropaic Anti-Missile"
-	drone -103 295 over left
-	drone -103 295 under left
-	drone -103 205.5 over left
-	drone -103 205.5 under left
-	drone -103 115 over left
-	drone -103 115 under left
 	drone -103 25.5 over left
 	drone -103 25.5 under left
-	drone 103 115 over right
-	drone 103 115 under right
 	drone 103 25.5 over right
 	drone 103 25.5 under right
+	drone -103 115 over left
+	drone -103 115 under left
+	drone 103 115 over right
+	drone 103 115 under right
+	drone -103 205.5 over left
+	drone -103 205.5 under left
 	drone 103 205.5 over right
 	drone 103 205.5 under right
+	drone -103 295 over left
+	drone -103 295 under left
 	drone 103 295 over right
 	drone 103 295 under right
 
