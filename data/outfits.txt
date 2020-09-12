@@ -209,9 +209,9 @@ outfitter "irm"
 	"Tekina Engine"
 	"Transparency Plating"
 
-# ------------
-#   OVERRIDE
-# ------------
+# ----------------------
+#   OVERRIDE AES-OMNIS
+# ----------------------
 
 outfitter "experimental"
 	"Apotropaic Anti-Missile"
