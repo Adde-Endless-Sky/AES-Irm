@@ -2,12 +2,12 @@
 #   FIRST CONTACT
 # -----------------
 
-mission "irm first contact"
+mission "Irm: first contact"
 	name `Learn about Enigmatic Aliens`
 	description `Find somewhere to learn about the enigmatic aliens to the far north. The device that you can only assume to be a translation device also needs to be explained.`
 	landing
 	to fail
-		has "event: irm first contact"
+		has "event: Irm: first contact"
 	source
 		system "Solum"
 	on offer
@@ -25,9 +25,9 @@ mission "irm first contact"
 			label take
 			`	After taking the device, the group turns and begins to walk away from you, that was a quick meeting. You should try to find some place that could tell you about what you've just taken.`
 				launch
-		event "irm first contact" 16
+		event "Irm: first contact" 16
 
-event "irm first contact"
+event "Irm: first contact"
 	system Solum
 		add trade "Clothing" 251
 		add trade "Electronics" 874
@@ -40,21 +40,21 @@ event "irm first contact"
 		add trade "Metal" 932
 		add trade "Plastic" 487
 
-mission "irm language barrier"
+mission "Irm: language barrier"
 	name `Return to Solum`
 	description `The device given to you by aliens in the north has apparently activated. Return it to them to find out more about the strange device`
 	landing
 	to offer
-		has "event: irm first contact"
+		has "event: Irm: first contact"
 	destination "Arx"
 	on offer
 		dialog
 			`The strange device that you once assumed to be a translation device suddenly begins beeping, slowly, but consistantly. You should return it to the mysterious aliens to the far north..`
 
-mission "irm translation device"
+mission "Irm: translation device"
 	landing
 	to offer
-		has "event: irm first contact"
+		has "event: Irm: first contact"
 	source
 		system "Solum"
 	on offer
