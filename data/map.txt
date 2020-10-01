@@ -22,6 +22,18 @@ system "Persolus"
 			sprite planet/ice7
 			distance 173
 			period 31.0553
+	object
+		sprite planet/rock18
+		distance 994.305
+		period 381.507
+	object
+		sprite planet/uranus
+		distance 1759.55
+		period 898.097
+		object
+			sprite planet/desert4-b
+			distance 200
+			period 11.4109
 
 system "Solum"
 	pos -247 -547
@@ -119,7 +131,7 @@ system "Solus"
 		sprite star/g5
 		period 10
 	object
-		sprite planet/dust6-b
+		sprite planet/lava3
 		distance 127.09
 		period 32.037
 	object
@@ -131,13 +143,45 @@ system "Solus"
 		distance 734.39
 		period 543.705
 	object
-		sprite planet/forest2
-		distance 885.61
+		sprite planet/rock2
+		distance 985.61
 		period 320.783
 		object
 			sprite planet/mercury-b
 			distance 169
 			period 19.3731
+	object
+		sprite planet/lava7-b
+		distance 1101.09
+		period 604.835
+	object
+		sprite planet/ice1
+		distance 1370.13
+		period 560.112
+		object
+			sprite planet/desert4-b
+			distance 146
+			period 13.3875
+	object
+		sprite planet/desert2
+		distance 1673.13
+		period 1095
+	object
+		sprite planet/dust2
+		distance 2364.34
+		period 1657.14
+	object
+		sprite planet/gas5-b
+		distance 3744.58
+		period 5123.77
+		object
+			sprite planet/dust4
+			distance 274
+			period 15.0825
+		object
+			sprite planet/callisto
+			distance 373
+			period 23.9558
 
 system "Tantum"
 	pos -232 -621
