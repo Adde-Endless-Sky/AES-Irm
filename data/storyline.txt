@@ -53,7 +53,10 @@ mission "Irm- language barrier"
 mission "Irm- translation device"
 	landing
 	to offer
-		has "event: Irm- first contact"
+#		has "event: Irm- first contact"
+
+	repeat
+
 	source
 		system "Solum"
 	on offer
@@ -71,10 +74,12 @@ mission "Irm- translation device"
 				decline
 			label "traveler"
 			`	"That is pleasing to hear, yet regrettable, casting off your own will lead only to hardship. It is honorable to be part of something bigger than yourself, humbling most of all." He lectures, seeming somewhat unsettled by your position.`
+				goto "skip"
 			label "where"
-			`	"This is us, we inhabit a single star system and ask for no more. Politics is not an interest to us and a land grab is not important at this point in time, particularly true given our surrounding systems. So because of this, we stay, and we avoid trouble."`
+			`	"This is us, we hold what others would see as very little territory but we are nothing to dismiss. Politics is not an interest to us and a land grab is of no consideration to us at current, not that we could possess much more with what surrounds us. So because of this, we stay, and we avoid trouble."`
+			label "skip"
 			choice
-				`	"Surrounding systems? You've met the Hai?"`
+				`	"What surrounds us? You've met the Hai?"`
 					goto "hai"
 				`	"I see. Well I'm just passing through."`
 					goto "pass"
@@ -85,7 +90,7 @@ mission "Irm- translation device"
 				`	"I'm just passing through."`
 					goto "pass"
 				`	"I'm just a tourist, seeing all there is to see."`
-			`	"We have few tourists here on Arx, we do not know if this structure is intimidating to outsiders or we are simply not known by many. Whichever is the cause, we do not mind, we have many pressing matters that take precedence over tourism. If you wish to explore our home you are welcome but do not become an issue to us or you will no longer be welcome here."`
+			`	"We have very few 'tourists' here on Arx, we anticipated to draw visitors through the feat of engineering that is our home. Whichever is the cause, we do not mind, we have many pressing matters that take precedence over tourism. If you wish to explore our home you are welcome but do not become a hindrance to us or you will no longer be welcome here."`
 				decline
 
 # -----------------
