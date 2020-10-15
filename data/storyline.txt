@@ -53,10 +53,7 @@ mission "Irm- language barrier"
 mission "Irm- translation device"
 	landing
 	to offer
-#		has "event: Irm- first contact"
-
-	repeat
-
+		has "event: Irm- first contact"
 	source
 		system "Solum"
 	on offer
