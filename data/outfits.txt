@@ -128,6 +128,7 @@ outfit "Apotropaic Anti-Missile"
 	"outfit space" -52
 	"weapon capacity" -52
 	"turret mounts" -1
+	"required crew" 1
 	weapon
 		"hit effect" "quarg anti-missile"
 		anti-missile 85
