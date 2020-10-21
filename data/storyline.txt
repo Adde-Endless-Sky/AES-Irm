@@ -81,7 +81,7 @@ mission "Irm- translation device"
 				`	"I see. Well I'm just passing through."`
 					goto "pass"
 			label "hai"
-			`	"Yes, though not through means of exploration, they came to us. At the beginning we were threatened, extorted of our resources, a time where we had not yet even discovered the atom. Though for very many millennia since, we have had peace with the Hai, our negotiations with the peaceful Hai were extensive, they do not permit their kind to wander here, and they do not tell of our existence to outsiders, like them we mean to keep peace and this has earned us their favor."`
+			`	"Yes, though not through means of exploration, they came to us. At the beginning we were threatened, extorted of our resources, a time where we had not yet even discovered the atom. Though for very many centuries since, we have had peace with the Hai, our negotiations with the peaceful Hai were extensive, they do not permit their kind to wander here, and they do not tell of our existence to outsiders, like them we mean to keep peace and this has earned us their favor."`
 			`	"We do not know what events took place for the conquesting Hai to find themselves at peace but perhaps it can be an example to others. Now, what is it you are here for?"`
 			choice
 				`	"I'm just passing through."`
