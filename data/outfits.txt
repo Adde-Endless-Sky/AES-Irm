@@ -138,6 +138,91 @@ outfit "Apotropaic Anti-Missile"
 		"firing energy" 62
 		"firing heat" -982
 
+# ---------------------
+#   SECONDARY WEAPONS
+# ---------------------
+
+outfit "Hyperframe Pod Launcher"
+	category "Secondary Weapons"
+	cost 4250000
+	"mass" 18
+	"outfit space" -24
+	"weapon capacity" -24
+	"gun ports" -1
+	"hyperframe capacity" 2
+	weapon
+		sprite "projectile/finisher activating"
+		sound "finisher"
+		icon "icon/dragonflame"
+		ammo "Hyperframe Pod"
+		"hit effect" "blaster impact"
+		"submunition" "hyperframe core (guiding)" 1
+		"submunition" "hyperframe appendix" 6
+		"lifetime" 160
+		"velocity" 3
+		"acceleration" 1
+		"drag" .1
+		homing 2
+		turn 3
+		tracking .6
+		reload 80
+		"firing energy" 95
+		"firing heat" 85
+		"split range" 1100
+		"slowing damage" -60
+		"ion damage" -100
+
+outfit "hyperframe core (guiding)"
+	weapon
+		sprite "projectile/typhoon"
+		"hit effect" "torpedo hit"
+		"lifetime" 40
+		"velocity" -3
+		homing 4
+		tracking 1
+		"submunition" "hyperframe core (engaged)" 1
+
+outfit "hyperframe core (engaged)"
+	weapon
+		sprite "projectile/torpedo"
+		sound "dragonflame"
+		"hit effect" "bright hit"
+		"hit effect" "dragonflame plasma" 30
+		"hit effect" "dragonflame debris" 50
+		"lifetime" 60
+		"drag" 0.1
+		"acceleration" 10
+		homing 4
+		turn 60
+		"shield damage" 14000
+		"hull damage" 9000
+		"ion damage" -320
+
+outfit "hyperframe appendix"
+	weapon
+		sprite "projectile/proton"
+		"hit effect" "proton impact" 3
+		"inaccuracy" 70
+		"lifetime" 220
+		"drag" 0.1
+		"velocity" 14
+		"acceleration" 4
+		homing 2
+		turn 15
+		tracking .8
+		"slowing damage" 10
+		"ion damage" 70
+
+# --------------
+#   AMMUNITION
+# --------------
+
+outfit "Hyperframe Pod"
+	category "Ammunition"
+	cost 230000
+	"mass" 3
+	"hyperframe capacity" -1
+
 # -----------
 #   SYSTEMS
 # -----------
@@ -206,6 +291,8 @@ outfitter "irm"
 	"Apotropaic Anti-Missile"
 	"Devastator"
 	"Harrier"
+	"Hyperframe Pod Launcher"
+	"Hyperframe Pod"
 	"Oginau Engine"
 	"Tekina Engine"
 	"Transparency Plating"
@@ -217,6 +304,8 @@ outfitter "irm"
 outfitter "experimental"
 	"Apotropaic Anti-Missile"
 	"Devastator"
+	"Hyperframe Pod Launcher"
+	"Hyperframe Pod"
 	"Oginau Engine"
 
 outfitter "plugin"

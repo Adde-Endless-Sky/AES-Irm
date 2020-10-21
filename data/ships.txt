@@ -17,8 +17,8 @@ ship "Testament"
 		"fuel capacity" 300
 		"cargo space" 6
 		"outfit space" 197
-		"weapon capacity" 68
-		"engine capacity" 112
+		"weapon capacity" 138
+		"engine capacity" 59
 		hyperdrive 1
 		ramscoop .8
 		"required crew" 1
@@ -32,15 +32,16 @@ ship "Testament"
 	outfits
 		"Apotropaic Anti-Missile"
 		"Harrier"
+		"Hyperframe Pod Launcher" 2
+		"Hyperframe Pod" 4
 		"Tekina Engine"
-	engine 0 37.5 .6
 	engine -6 25.5 .3
 	engine 6 25.5 .3
-	engine -4.5 28 .3
-	engine 4.5 28 .3
+	engine -4.5 28 .4
+	engine 4.5 28 .4
 	gun 0 37 Harrier
-	gun -11.5 14
-	gun 11.5 14
+	gun -11.5 14 "Hyperframe Pod Launcher"
+	gun 11.5 14 "Hyperframe Pod Launcher"
 	turret 0 15 "Apotropaic Anti-Missile"
 
 # ---------
@@ -74,9 +75,7 @@ ship "Revelation"
 	outfits
 		"Harrier"
 		"Tekina Engine"
-	engine -8 25 .3
-	engine 8 25 .3
-	engine 0 40 .6
+	engine 0 40 .4
 	gun 0 -40 Harrier
 
 # -----------------
