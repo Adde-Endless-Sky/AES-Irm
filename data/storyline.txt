@@ -59,7 +59,7 @@ mission "Irm- translation device"
 	on offer
 		log Factions "Irm" `The Irm is an inward facing technocratic society, their entire civilization is undertaking the construction of a truly breathtaking megastructure. Although they very obviously despise cooperating with other species due to a lack of trust and no willingness to give them the chance to prove their trust, they have traded with the Hai before whilst observing the rise and fall of the mighty Hai empire.`
 		conversation
-			`When landing back on the massive ringworld, it is no less impressive as it was the first time around. Back to greet you are the same group of individuals from last time, "Greetings, your translation device seems to be fully functioning now. We are the Irm, I understand you must have questions."`
+			`When landing back on the massive ringworld, it is no less impressive as it was the first time around. Back to greet you are the same group of individuals from last time, "Greetings, your translation device seems to be fully functioning now. I understand you must have questions."`
 			choice
 				`	"What is this place?"`
 					goto "where"
@@ -71,10 +71,13 @@ mission "Irm- translation device"
 				decline
 			label "traveler"
 			`	"That is pleasing to hear, yet regrettable, casting off your own will lead only to hardship. It is honorable to be part of something bigger than yourself, humbling most of all." He lectures, seeming somewhat unsettled by your response.`
-				goto "skip"
+			choice
+				`	"What is this place?"`
+					goto "where"
+				`	"I'm just passing through."`
+					goto "pass"
 			label "where"
 			`	"This is us, these few stars that we control are home for us. We do well with what little we possess in contrast to what surrounds us, staying out of the eyes of the giants allows us to progress on our own merit. So because of this, we stay, and we avoid trouble."`
-			label "skip"
 			choice
 				`	"What surrounds us? You've met the Hai?"`
 					goto "hai"
