@@ -107,6 +107,8 @@ ship "Apocalypse"
 		"active cooling" 177
 		"shield generation" 9.1
 		"shield energy" 9.5
+		cloak .002
+		"cloaking energy" 18
 		"apocalypse spine" 2
 	outfits
 		"Apotropaic Anti-Missile" 8
@@ -114,7 +116,6 @@ ship "Apocalypse"
 		"Hyperdrive"
 		"Oginau Engine"
 		"Tekina Engine"
-		"Transparency Plating"
 	engine -135 -107.5 .6
 	engine 135 -107.5 .6
 	engine -74 496

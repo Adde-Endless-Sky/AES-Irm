@@ -224,21 +224,6 @@ outfit "Hyperframe Pod"
 	"hyperframe capacity" -1
 
 # -----------
-#   SYSTEMS
-# -----------
-
-outfit "Transparency Plating"
-	category "Systems"
-	cost 750000
-	thumbnail "outfit/transparency_plating"
-	mass 96
-	"outfit space" -61
-	cloak .002
-	"cloaking energy" 18
-	unplunderable 1
-	description `An application of cloaking technology not unknown to you, tales of space age humans working to discover methods of cloaking were told to you by few historians and academics along your travels. Apparently this application of cloaking is crude and undeveloped but in enough of a working state to function effectively, although slow to put into effect and demanding on your ships power reserves.`
-
-# -----------
 #   ENGINES
 # -----------
 
@@ -295,7 +280,6 @@ outfitter "irm"
 	"Hyperframe Pod"
 	"Oginau Engine"
 	"Tekina Engine"
-	"Transparency Plating"
 
 # ----------------------
 #   OVERRIDE AES-OMNIS
@@ -311,4 +295,3 @@ outfitter "experimental"
 outfitter "plugin"
 	"Harrier"
 	"Tekina Engine"
-	"Transparency Plating"
