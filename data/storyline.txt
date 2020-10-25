@@ -70,10 +70,10 @@ mission "Irm- translation device"
 			`	"Then you may pass, we mean no inconvenience to your doings, traveler. Know however, that we do not easily forgive, and you will not think yourself more than what you are to us, you are a passerby, not to get involved in our affairs."`
 				decline
 			label "traveler"
-			`	"That is pleasing to hear, yet regrettable, casting off your own will lead only to hardship. It is honorable to be part of something bigger than yourself, humbling most of all." He lectures, seeming somewhat unsettled by your position.`
+			`	"That is pleasing to hear, yet regrettable, casting off your own will lead only to hardship. It is honorable to be part of something bigger than yourself, humbling most of all." He lectures, seeming somewhat unsettled by your response.`
 				goto "skip"
 			label "where"
-			`	"This is us, we hold what others would see as very little territory but we are nothing to dismiss. Politics is not an interest to us and a land grab is of no consideration to us at current, not that we could possess much more with what surrounds us. So because of this, we stay, and we avoid trouble."`
+			`	"This is us, these few stars that we control are home for us. We do well with what little we possess in contrast to what surrounds us, staying out of the eyes of the giants allows us to progress on our own merit. So because of this, we stay, and we avoid trouble."`
 			label "skip"
 			choice
 				`	"What surrounds us? You've met the Hai?"`
@@ -81,13 +81,13 @@ mission "Irm- translation device"
 				`	"I see. Well I'm just passing through."`
 					goto "pass"
 			label "hai"
-			`	"Yes, though not through means of exploration, they came to us. At the beginning we were threatened, extorted of our resources, a time where we had not yet even discovered the atom. Though for very many centuries since, we have had peace with the Hai, our negotiations with the peaceful Hai were extensive, they do not permit their kind to wander here, and they do not tell of our existence to outsiders, like them we mean to keep peace and this has earned us their favor."`
-			`	"We do not know what events took place for the conquesting Hai to find themselves at peace but perhaps it can be an example to others. Now, what is it you are here for?"`
+			`	"Yes, though not through means of exploration, they came to us. At the beginning they threatened us and had extorted us of our resources, a time where we had not yet even discovered the atom. For very many centuries since, we have had peace with our past bullies, our reparation talks with the peaceful Hai were extensive, they do not permit their kind to wander here, and they do not tell of our existence to outsiders, like them we mean to keep peace and this has earned us their favor."`
+			`	"I am not personally aware of the events that took place to calm the conquesting Hai but perhaps it can be an example to others. Now, what is it you are here for?"`
 			choice
 				`	"I'm just passing through."`
 					goto "pass"
 				`	"I'm just a tourist, seeing all there is to see."`
-			`	"We have very few 'tourists' here on Arx, we anticipated to draw visitors through the feat of engineering that is our home. Whichever is the cause, we do not mind, we have many pressing matters that take precedence over tourism. If you wish to explore our home you are welcome but do not become a hindrance to us or you will no longer be welcome here."`
+			`	"We have very few 'tourists' here on Arx, I anticipated the feat of engineering that is our home to draw visitors however. Whichever is the cause for the lack of traffic, it doesn't matter, we have matters that take precedence over tourism. If you wish to explore our home you are welcome but do not become a hindrance or you will no longer be welcome here."`
 				decline
 
 # -----------------
@@ -108,13 +108,13 @@ mission "Irm- hai relations [0]"
 	on offer
 		conversation
 			`Among the commotion of the Hai you feel just as the they all claim to be; you feel at peace here even under all the noise, it is not hard to see why so many Humans visitors have not chosen to return to where they came from. In the delay of waiting for the spaceport coordinator to process your visit; a divide in the crowd forms, it is one of the elders of the council, you would recognise the bright embezzled uniforms among any crowd. Waiting patiently alongside the line of humbled onlookers, the elder invites you to join him in a quiter location, a local office chambers of sorts.`
-			`	"Tranquil in our ports is it not? I often find solace in walking amongst the masses." says the elder of the Hai whilst leading you into an area normally restricted for captains, all while attracting all kinds of odd looks from those who cannot figure out what interest an elder has in a ship captain. "Where are you bringing me? I don't get the impression that elders often have chats with civilian captains," you question. He quickly responds, "I thought you would have guessed from our last encounter. We have a delicate matter that may require an outsiders touch, and you proved very helpful last time."`
+			`	"Tranquil in our ports is it not? I often find solace in walking amongst the masses." says the elder of the Hai whilst leading you into an area normally restricted for captains, all while attracting all kinds of odd looks from those who cannot figure out what interest an elder has in a ship captain. "Where are you bringing me? I don't get the impression that elders often have chats with civilian captains," you question. He quickly responds, "I had thought you could guess from our last encounter. We have yet another delicate matter that may require an outsiders touch, and you proved very helpful last time."`
 			choice
 				`	"Have the pirate raiders returned then?"`
 				`	"And what makes you think I would jump whenever somebody needs me?"`
 					goto "snarky"
-			`	"No, no they haven't; this matter is of greater urgency," he says, "one that requires delicate political handling between two neighboring species." You have to ask, "But if this is political and so urgent, why am I here? I'm just a ship captain, one of a species not involved in either side of this."`
-			`	He responds, "That may just be what we need to aid in negotiations, a mediator not involved in the matter, not to mention a sort of representative of the comparatively larger Human territories"`
+			`	"No, no they haven't; this matter is of greater urgency," he says, "one that requires delicate political handling between two neighboring species." You have to ask, "But if this is political and so urgent, why am I here? I'm just a ship captain, one that comes from a species not involved in either side of this."`
+			`	He responds, "On the contrary I believe we might require a mediator to represent a neutral perspective on the matter. Besides, even here all the chatter has been on the alien incursion into the war, and of you leading the first fleet into the territories lost to those 'Pug'"`
 			choice
 				`	"I'll have to trust you on my worth in the negotiations, but I'll help."`
 					goto "explain"
@@ -123,7 +123,7 @@ mission "Irm- hai relations [0]"
 				`	"No, I don't think this is a job for me."`
 					decline
 			label "snarky"
-			`	He stops walking right as you approach a flight of stairs, and turns to meet your gaze. "Forgive me, I didn't mean to imply expectation," he says, "I would only like to run through the situation with you, if you would?". "What form does the latest emergency take on?" you ask, "A slight diplomatic crisis between the Hai and a humble species known as the Irm" he responds.`
+			`	He stops walking right as you approach a flight of stairs, and turns to meet your gaze. "Forgive me, I didn't mean to imply expectation," he says, "I would only like to run through the situation with you, if you would?". "What form does this latest emergency take on?" you ask, "A slight diplomatic crisis between the Hai and a humble species known as the Irm" he responds.`
 			label "crisis"
 			branch "know irm"
 				has "Irm- translation device: declined"
@@ -138,19 +138,19 @@ mission "Irm- hai relations [0]"
 					goto "explain"
 				`	"I don't like the way you use 'slight' with 'crisis'"`
 			label "slight crisis"
-			`	He let out a boisterous laugh before exclaiming, "I do appreciate humor among those around me, to find joy in talks of dire times is desirable. Today it may be slight, but anything that threatens the long standing peace we have maintained is a crisis to anybody proactively looking towards the future of those generations we may leave in our departure."`
+			`	He lets out a boisterous laugh before exclaiming, "I do appreciate humor among those around me, to find joy even in the midst of an uncertain future is admirable. Today it may be slight, but anything that threatens the long standing peace we have maintained is a crisis to anybody proactively looking towards the future of those generations we may leave in our departure."`
 			`	"What is it that happened exactly, what do you need of me?"`
 				goto "explain"
 			label "irm"
 			`	"I didn't expect you to know of them, we try not to expose our neighbors as they prefer their isolation." he says, "In saying that however, they are not difficult to stumble upon on ones own."`
-			`	You respond, "Well, I haven't stumbled onto any species who go by "Irm", "Well, the path leading into their territory shares the path into our space, there happens to be a second wormhole in the Waypoint system.." he trails off before giving a look as if needing to clarify, "I feel as if it is necessary to inform you as to where they reside, in the case you choose to assist us."`
+			`	You respond, "Well, I haven't stumbled onto any species who go by "Irm", "You see captain, the path leading into their territory shares the very path into our space, there happens to be a second wormhole in the Waypoint system.."`
 			choice
 				`	"Why don't you tell me what exactly happened?"`
 				`	"I'm sorry, I'm not interested in getting in the middle here."`
 					decline
 			label "explain"
-			`	He gives a look of deep thought, as if trying to find the words on how to phrase the situation. "What happened recently was not the doing of the Unfettered, and to our knowledge no crime of intent. It sparked when a Human and Hai crewed merchant vessel was caught by pirates on the return from a trade run through the Desolation Trail.." Abruptly he cut off and side tracks to clarify, "That is the title attributed to the perilous pathway that allows travel between our two territories, well, that has been the title for all the trail runners anyway for longer than I've been elder."`
+			`	He gives a look of deep thought, as if trying to find the words on how to phrase the situation. "What happened recently was not the doing of the Unfettered, and to our knowledge no crime of intent. It sparked when a Human and Hai crewed merchant vessel was caught by pirates on the return from a trade run through the Desolation Trail.." Abruptly he cut off and side tracks to clarify, "That is the title attributed to the perilous pathway that allows travel between our two territories. That has been the title for all the trail runners anyway, for longer than I've been elder."`
 			`	"But what more of the incident?" You ask`
-			`	He continues "Oh yes, well after their travels along the trail and found themselves in pursuit by pirates, the lead they maintained ahead was thinning according to helpless onlookers. They made it through to Waypoint, that much was certain by the reports. It's unclear why exactly  they were unable to retreat into central Hai space but regardless, they found themselves traveling through the second wormhole into Irm space, the rest of what we know is piecemeal of what the Irm have disclosed. We do know that whatever happened on the other side of that wormhole did not do us any favors, they demand negotiations with our council, much of which has departed rather recently. I insisted on staying to focus on more terrestrial matters, however I've been informing myself on your doings within our space and of what I know of your significance within Human space, I believe your curiously intermeddling touch could be of use."`
-			`	"Please travel to the Solum system and tell them Kaiya sent you and that you are to participate in the negotiations. the Irm may not be willing include you in this but make sure they tell the elders I sent you, they will request for you once they know I sent you."`
+			`	He continues "Oh yes, well after their travels along the trail and found themselves in pursuit by pirates, the lead they maintained ahead was thinning after entering Waypoint, helpless onlookers fled the system in fear of the pirates. It's unclear why exactly they were unable to retreat into central Hai space but regardless, they found themselves traveling through the second wormhole into Irm space, the rest of what we know is piecemeal of what the Irm have disclosed. We do know that whatever happened on the other side of that wormhole did not do us any favors, they demand negotiations with our council, much of which has departed rather recently. I insisted on staying to focus on more terrestrial matters, however I've been informing myself on your doings within our space and of what I know of your significance within Human space, I believe your curiously intermeddling touch could be of use."`
+			`	"Please travel to the Solum system and tell them Kaiya sent you and that you are to participate in the negotiations. the Irm may not be willing include you in this but make sure the elders understand that I sent you, they will request for you once they know."`
 				accept
