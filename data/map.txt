@@ -223,7 +223,7 @@ planet "Arx"
 	tribute 7500
 		threshold 0
 		fleet "irm defense" 120
-		
+
 # ---------------------
 #   PLANETS AES-OMNIS
 # ---------------------
@@ -246,18 +246,18 @@ planet "Irm"
 planet "irm gate"
 	description ``
 
-# ------------
-#   OVERRIDE
-# ------------
+# ----------------------
+#   OVERRIDE AES-OMNIS
+# ----------------------
 
 system "Omnis"
 	add object "Apocalypse"
 		sprite "ship/apocalypse"
-		distance 10500
+		distance 9500
 		offset -4
 	add object "Irm"
 		sprite "sprite/black-hole-core-land"
-		distance 10500
+		distance 9500
 		object
 			sprite "sprite/wisp_red"
 			
