@@ -6,9 +6,9 @@ outfit Harrier
 	category "Guns"
 	cost 3160000
 	thumbnail "outfit/harrier"
-	mass 31
-	"outfit space" -31
-	"weapon capacity" -31
+	mass 26
+	"outfit space" -26
+	"weapon capacity" -26
 	"gun ports" -1
 	weapon
 		sprite sprite/ion_beam
@@ -231,9 +231,9 @@ outfit "Tekina Engine"
 	category "Engines"
 	cost 940000
 	thumbnail outfit/tekina_engine
-	mass 56
-	"outfit space" -56
-	"engine capacity" -56
+	mass 39
+	"outfit space" -39
+	"engine capacity" -39
 	turn 380
 	"turning energy" 1.4
 	"turning heat" 1
