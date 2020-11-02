@@ -268,9 +268,9 @@ outfit "Oginau Engine"
 		"frame rate" 3
 	"flare sound" "plasma medium"
 
-# ---------
-#   SALES
-# ---------
+# -------------------
+#   SALES AES-OMNIS
+# -------------------
 
 outfitter "irm"
 	"Apotropaic Anti-Missile"
@@ -279,19 +279,4 @@ outfitter "irm"
 	"Hyperframe Pod Launcher"
 	"Hyperframe Pod"
 	"Oginau Engine"
-	"Tekina Engine"
-
-# ----------------------
-#   OVERRIDE AES-OMNIS
-# ----------------------
-
-outfitter "experimental"
-	"Apotropaic Anti-Missile"
-	"Devastator"
-	"Hyperframe Pod Launcher"
-	"Hyperframe Pod"
-	"Oginau Engine"
-
-outfitter "plugin"
-	"Harrier"
 	"Tekina Engine"

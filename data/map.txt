@@ -224,16 +224,12 @@ planet "Arx"
 		threshold 0
 		fleet "irm defense" 120
 
+planet "irm gate"
+	description ``
+
 # ---------------------
 #   PLANETS AES-OMNIS
 # ---------------------
-
-planet "Apocalypse"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "apocalypse"
 
 planet "Irm"
 	description `The Irm are an inward facing technocratic society, their entire civilization is undertaking the construction of a truly breathtaking megastructure. Although they very obviously despise cooperating with other species due to a lack of trust and no willingness to give them the chance to prove their trust, they have traded with the Hai before whilst observing the rise and fall of the mighty Hai empire.`
@@ -243,26 +239,20 @@ planet "Irm"
 	shipyard "irm"
 	bribe 0
 
-planet "irm gate"
-	description ``
-
 # ----------------------
 #   OVERRIDE AES-OMNIS
 # ----------------------
-
-system "Omnis"
-	add object "Apocalypse"
-		sprite "ship/apocalypse"
-		distance 9500
-		offset -4
-	add object "Irm"
-		sprite "sprite/black-hole-core-land"
-		distance 9500
-		object
-			sprite "sprite/wisp_red"
 			
 system "Waypoint"
 	add object "irm gate"
 		sprite "planet/wormhole"
 		distance 6048
 		period 5634
+
+# ------------------------------
+#   PLANETS OVERRIDE AES-OMNIS
+# ------------------------------
+
+planet "Plugins"
+	add outfitter "irm"
+	add shipyard "irm"

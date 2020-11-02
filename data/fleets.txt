@@ -15,15 +15,3 @@ fleet "irm defense"
 		Revelation 3
 	variant
 		Revelation 8
-		
-# --------------------
-#   FLEETS AES-OMNIS
-# --------------------
-
-fleet "apocalypse"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Apocalypse"
-		"Revelation" 16
