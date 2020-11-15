@@ -163,6 +163,7 @@ outfit "Hyperframe Pod Launcher"
 		"acceleration" 1
 		"drag" .1
 		homing 2
+		"radar tracking" .7
 		turn 3
 		tracking .6
 		reload 80
@@ -179,6 +180,7 @@ outfit "hyperframe core (guiding)"
 		"lifetime" 40
 		"velocity" -3
 		homing 4
+		"radar tracking" .7
 		tracking 1
 		"submunition" "hyperframe core (engaged)" 1
 
@@ -193,6 +195,7 @@ outfit "hyperframe core (engaged)"
 		"drag" 0.1
 		"acceleration" 10
 		homing 4
+		"radar tracking" .7
 		turn 60
 		"shield damage" 14000
 		"hull damage" 9000
@@ -208,6 +211,7 @@ outfit "hyperframe appendix"
 		"velocity" 14
 		"acceleration" 4
 		homing 2
+		"radar tracking" .7
 		turn 15
 		tracking .8
 		"slowing damage" 10
