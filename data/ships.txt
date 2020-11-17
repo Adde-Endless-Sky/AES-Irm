@@ -193,22 +193,38 @@ ship "Apocalypse"
 	turret 47 205.5 "Apotropaic Anti-Missile"
 	turret -47 295 "Apotropaic Anti-Missile"
 	turret 47 295 "Apotropaic Anti-Missile"
-	drone -103 25.5 over left
-	drone -103 25.5 under left
-	drone 103 25.5 over right
-	drone 103 25.5 under right
-	drone -103 115 over left
-	drone -103 115 under left
-	drone 103 115 over right
-	drone 103 115 under right
-	drone -103 205.5 over left
-	drone -103 205.5 under left
-	drone 103 205.5 over right
-	drone 103 205.5 under right
-	drone -103 295 over left
-	drone -103 295 under left
-	drone 103 295 over right
-	drone 103 295 under right
+	drone -103 14.5 under left
+	drone -103 14.5 under left
+	drone 103 14.5 under right
+	drone 103 14.5 under right
+	drone -103 33.5 under left
+	drone -103 33.5 under left
+	drone 103 33.5 under right
+	drone 103 33.5 under right
+	drone -103 104 under left
+	drone -103 104 under left
+	drone 103 104 under right
+	drone 103 104 under right
+	drone -103 123 under left
+	drone -103 123 under left
+	drone 103 123 under right
+	drone 103 123 under right
+	drone -103 194.5 under left
+	drone -103 194.5 under left
+	drone 103 194.5 under right
+	drone 103 194.5 under right
+	drone -103 213.5 under left
+	drone -103 213.5 under left
+	drone 103 213.5 under right
+	drone 103 213.5 under right
+	drone -103 284 under left
+	drone -103 284 under left
+	drone 103 284 under right
+	drone 103 284 under right
+	drone -103 303 under left
+	drone -103 303 under left
+	drone 103 303 under right
+	drone 103 303 under right
 
 # -----------
 #   FIGHTER
