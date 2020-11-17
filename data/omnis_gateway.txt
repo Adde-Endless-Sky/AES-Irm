@@ -1,0 +1,13 @@
+mission "spawn irm gateway"
+	invisible
+	landing
+	to offer
+		has "omnis marker: offered"
+	on accept
+		event "spawn irm gateway"
+
+event "spawn irm gateway"
+	system "Solum"
+		add object "irm gateway"
+			sprite "planet/wisp"
+			distance 4000
