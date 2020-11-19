@@ -1,6 +1,6 @@
-# ---------------------
-#   SYSTEMS AES-OMNIS
-# ---------------------
+# -----------
+#   SYSTEMS
+# -----------
 
 system "Irm"
 	pos -125 -10150
@@ -116,10 +116,35 @@ system "Irm"
 		sprite "sprite/category_drone"
 		distance 1200
 		offset 320
+#
+	object "Seraphim"
+		sprite "ship/seraphim"
+		distance 2200
+		offset 80
+#
+	object "Apocalypse"
+		sprite "ship/apocalypse"
+		distance 1950
+		offset 240
+#
+	object "Testament"
+		sprite "ship/testament"
+		distance 1450
+		offset 280
+#
+	object "Revelation "
+		sprite "ship/revelation"
+		distance 1450
+		offset 320
+#
 
-# ---------------------
-#   PLANETS AES-OMNIS
-# ---------------------
+# -----------
+#   PLANETS
+# -----------
+
+planet "Plugins"
+	add outfitter "irm"
+	add shipyard "irm"
 
 planet "Irm"
 	description `The Irm are an inward facing technocratic society, their entire civilization is undertaking the construction of a truly breathtaking megastructure. Although they very obviously despise cooperating with other species due to a lack of trust and no willingness to give them the chance to prove their trust, they have traded with the Hai before whilst observing the rise and fall of the mighty Hai empire.`
@@ -129,17 +154,71 @@ planet "Irm"
 	shipyard "irm"
 	bribe 0
 
-# ------------------------------
-#   PLANETS OVERRIDE AES-OMNIS
-# ------------------------------
+planet "Apocalypse"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "apocalypse"
 
-planet "Plugins"
-	add outfitter "irm"
-	add shipyard "irm"
+planet "Seraphim"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "seraphim"
 
-# -------------------
-#   SALES AES-OMNIS
-# -------------------
+planet "Revelation "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "revelation"
+
+planet "Testament"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "testament"
+
+# ----------
+#   FLEETS
+# ----------
+
+fleet "apocalypse"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Apocalypse"
+		"Revelation" 32
+
+fleet "seraphim"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Seraphim"
+		"Revelation" 62
+
+fleet "revelation"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Revelation"
+
+fleet "testament"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Testament"
+
+# ---------
+#   SALES
+# ---------
 
 outfitter "irm"
 	"Apotropaic Anti-Missile"
