@@ -305,23 +305,3 @@ ship "Revelation"
 		"Tekina Engine"
 	engine 0 40 .4
 	gun 0 -40 Harrier
-
-# ---------
-#   SALES
-# ---------
-
-shipyard "irm"
-	"Apocalypse"
-	"Revelation"
-	"Seraphim"
-	"Testament"
-
-# ------------------
-#   SALES OVERRIDE
-# ------------------
-
-shipyard "experimental"
-	"Apocalypse"
-	"Revelation"
-	"Seraphim"
-	"Testament"
