@@ -252,3 +252,19 @@ event "spawn irm gateway"
 		add object "irm gateway"
 			sprite "planet/wisp"
 			distance 4000
+
+# -----------
+#   MAPPING
+# -----------
+
+mission "reveal omnis-irm"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal omnis-irm"
+
+event "reveal omnis-irm"
+	visit "Irm"
