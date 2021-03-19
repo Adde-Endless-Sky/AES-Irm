@@ -268,3 +268,21 @@ mission "reveal omnis-irm"
 
 event "reveal omnis-irm"
 	visit "Irm"
+
+mission "reveal irm content"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	to offer
+		has "omnis start"
+	on accept
+		event "reveal irm content"
+
+event "reveal irm content"
+	"visit planet" "irm gate"
+	visit "Persolus"
+	visit "Solum"
+	visit "Solus"
+	visit "Tantum"
