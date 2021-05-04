@@ -42,7 +42,7 @@ system "Solum"
 	link "Tantum"
 	asteroids "large metal" 5 2.120024
 	asteroids "medium rock" 8 3.637729
-	fleet "irm defense" 250
+	fleet "irm interstellar" 250
 	object
 		sprite "star/k0"
 	object
@@ -55,52 +55,52 @@ system "Solum"
 		distance 812
 		offset -220
 		period 360
-	object "Arx"
+	object "Arx "
 		sprite "planet/ringworld"
 		distance 812
 		offset -200
 		period 360
-	object "Arx"
+	object "Arx  "
 		sprite "planet/ringworld"
 		distance 812
 		offset -180
 		period 360
-	object "Arx"
+	object "Arx   "
 		sprite "planet/ringworld"
 		distance 812
 		offset -160
 		period 360
-	object "Arx"
+	object "Arx    "
 		sprite "planet/ringworld"
 		distance 812
 		offset -140
 		period 360
-	object "Arx"
+	object "Arx     "
 		sprite "planet/ringworld"
 		distance 812
 		offset -120
 		period 360
-	object "Arx"
+	object "Arx      "
 		sprite "planet/ringworld"
 		distance 812
 		offset -100
 		period 360
-	object "Arx"
+	object "Arx       "
 		sprite "planet/ringworld"
 		distance 812
 		offset -80
 		period 360
-	object "Arx"
+	object "Arx        "
 		sprite "planet/ringworld"
 		distance 812
 		offset -60
 		period 360
-	object "Arx"
+	object "Arx         "
 		sprite "planet/ringworld"
 		distance 812
 		offset -40
 		period 360
-	object "Arx"
+	object "Arx          "
 		sprite "planet/ringworld"
 		distance 812
 		offset -20
@@ -215,6 +215,106 @@ system "Tantum"
 # -----------
 
 planet "Arx"
+	description `This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials.`
+	description `Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species.`
+	landscape landscape/arx
+	spaceport `Each completed section of the ring is open and ready for business already. This is a testament to just how much anticipation the Irm hold for their new home.`
+	spaceport `The inside of the ring is a looping ribbon world with direct sunlight beaming down on the inhabitants. Solar power is still collected, just maybe not in such massive amounts as would be expected from a station completely wrapping around a systems star.`
+	tribute 7500
+		threshold 0
+		fleet "irm defense" 120
+
+planet "Arx "
+	description `This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials.`
+	description `Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species.`
+	landscape landscape/arx
+	spaceport `Each completed section of the ring is open and ready for business already. This is a testament to just how much anticipation the Irm hold for their new home.`
+	spaceport `The inside of the ring is a looping ribbon world with direct sunlight beaming down on the inhabitants. Solar power is still collected, just maybe not in such massive amounts as would be expected from a station completely wrapping around a systems star.`
+	tribute 7500
+		threshold 0
+		fleet "irm defense" 120
+
+planet "Arx  "
+	description `This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials.`
+	description `Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species.`
+	landscape landscape/arx
+	spaceport `Each completed section of the ring is open and ready for business already. This is a testament to just how much anticipation the Irm hold for their new home.`
+	spaceport `The inside of the ring is a looping ribbon world with direct sunlight beaming down on the inhabitants. Solar power is still collected, just maybe not in such massive amounts as would be expected from a station completely wrapping around a systems star.`
+	tribute 7500
+		threshold 0
+		fleet "irm defense" 120
+
+planet "Arx   "
+	description `This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials.`
+	description `Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species.`
+	landscape landscape/arx
+	spaceport `Each completed section of the ring is open and ready for business already. This is a testament to just how much anticipation the Irm hold for their new home.`
+	spaceport `The inside of the ring is a looping ribbon world with direct sunlight beaming down on the inhabitants. Solar power is still collected, just maybe not in such massive amounts as would be expected from a station completely wrapping around a systems star.`
+	tribute 7500
+		threshold 0
+		fleet "irm defense" 120
+
+planet "Arx    "
+	description `This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials.`
+	description `Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species.`
+	landscape landscape/arx
+	spaceport `Each completed section of the ring is open and ready for business already. This is a testament to just how much anticipation the Irm hold for their new home.`
+	spaceport `The inside of the ring is a looping ribbon world with direct sunlight beaming down on the inhabitants. Solar power is still collected, just maybe not in such massive amounts as would be expected from a station completely wrapping around a systems star.`
+	tribute 7500
+		threshold 0
+		fleet "irm defense" 120
+
+planet "Arx     "
+	description `This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials.`
+	description `Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species.`
+	landscape landscape/arx
+	spaceport `Each completed section of the ring is open and ready for business already. This is a testament to just how much anticipation the Irm hold for their new home.`
+	spaceport `The inside of the ring is a looping ribbon world with direct sunlight beaming down on the inhabitants. Solar power is still collected, just maybe not in such massive amounts as would be expected from a station completely wrapping around a systems star.`
+	tribute 7500
+		threshold 0
+		fleet "irm defense" 120
+
+planet "Arx      "
+	description `This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials.`
+	description `Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species.`
+	landscape landscape/arx
+	spaceport `Each completed section of the ring is open and ready for business already. This is a testament to just how much anticipation the Irm hold for their new home.`
+	spaceport `The inside of the ring is a looping ribbon world with direct sunlight beaming down on the inhabitants. Solar power is still collected, just maybe not in such massive amounts as would be expected from a station completely wrapping around a systems star.`
+	tribute 7500
+		threshold 0
+		fleet "irm defense" 120
+
+planet "Arx       "
+	description `This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials.`
+	description `Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species.`
+	landscape landscape/arx
+	spaceport `Each completed section of the ring is open and ready for business already. This is a testament to just how much anticipation the Irm hold for their new home.`
+	spaceport `The inside of the ring is a looping ribbon world with direct sunlight beaming down on the inhabitants. Solar power is still collected, just maybe not in such massive amounts as would be expected from a station completely wrapping around a systems star.`
+	tribute 7500
+		threshold 0
+		fleet "irm defense" 120
+
+planet "Arx        "
+	description `This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials.`
+	description `Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species.`
+	landscape landscape/arx
+	spaceport `Each completed section of the ring is open and ready for business already. This is a testament to just how much anticipation the Irm hold for their new home.`
+	spaceport `The inside of the ring is a looping ribbon world with direct sunlight beaming down on the inhabitants. Solar power is still collected, just maybe not in such massive amounts as would be expected from a station completely wrapping around a systems star.`
+	tribute 7500
+		threshold 0
+		fleet "irm defense" 120
+
+planet "Arx         "
+	description `This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials.`
+	description `Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species.`
+	landscape landscape/arx
+	spaceport `Each completed section of the ring is open and ready for business already. This is a testament to just how much anticipation the Irm hold for their new home.`
+	spaceport `The inside of the ring is a looping ribbon world with direct sunlight beaming down on the inhabitants. Solar power is still collected, just maybe not in such massive amounts as would be expected from a station completely wrapping around a systems star.`
+	tribute 7500
+		threshold 0
+		fleet "irm defense" 120
+
+planet "Arx          "
 	description `This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials.`
 	description `Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species.`
 	landscape landscape/arx

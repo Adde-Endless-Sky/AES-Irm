@@ -15,3 +15,17 @@ fleet "irm defense"
 		Revelation 3
 	variant
 		Revelation 8
+
+fleet "irm interstellar"
+	government "Irm"
+	names "kor mereti"
+	cargo 3
+	personality
+		heroic
+		unconstrained
+	variant
+		Revelation 1
+	variant
+		Revelation 3
+	variant
+		Revelation 8

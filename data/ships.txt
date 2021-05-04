@@ -242,7 +242,6 @@ ship "Testament"
 		mass 131
 		drag 1.8
 		"heat dissipation" .6
-		"fuel capacity" 300
 		"cargo space" 6
 		"outfit space" 197
 		"weapon capacity" 138
@@ -289,7 +288,6 @@ ship "Revelation"
 		mass 39
 		drag 1.4
 		"heat dissipation" .7
-		"fuel capacity" 100
 		"cargo space" 16
 		"outfit space" 106
 		"weapon capacity" 32
