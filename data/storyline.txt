@@ -100,6 +100,9 @@ mission "Irm- hai relations [0]"
 		government "Hai"
 	destination "Arx"
 	to offer
+
+		has "Unfinished"
+
 		has "Pirate Troubles [4]: offered"
 		has "main plot completed"
 		random < 16
